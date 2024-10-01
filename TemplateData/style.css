@@ -2,14 +2,11 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -21,9 +18,7 @@ body {
     margin: 0;
 }
 
-body,
-canvas,
-#canvas {
+body, canvas, #canvas {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -119,10 +114,13 @@ canvas,
     animation: spinner-spin 1.1s infinite linear;
 }
 
+
+
 @keyframes spinner-spin {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
